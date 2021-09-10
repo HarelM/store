@@ -1,0 +1,35 @@
+{
+    "name": "@angular-redux2/store",
+    "version": "1.0.0",
+    "description": "Angular bindings for Redux",
+    "author": "Garfild (https://github.com/Garefild)",
+    "license": "MIT",
+    "homepage": "https://github.com/angular-redux2/store",
+    "main": "src/index.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/angular-redux2/store.git"
+    },
+    "bugs": {
+        "url": "https://github.com/angular-redux2/store/issues"
+    },
+    "keywords": [
+        "angular",
+        "angular2",
+        "redux",
+        "store",
+        "state management"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=14"
+    },
+    "peerDependencies": {
+        "redux-devtools-extension": "^2.13.9",
+        "@angular/core": "^12.2.0",
+        "redux": "^4.1.1",
+        "rxjs": "^6.6.0"
+    }
+}
